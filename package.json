@@ -1,0 +1,50 @@
+{
+  "name": "node-express-app-skeleton",
+  "version": "1.0.0",
+  "description": "Application skeleton, could be a base of anything",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test",
+    "lint": "eslint --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:loveirobert/node-express-app-skeleton.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "express"
+  ],
+  "author": "Robert Lovei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loveirobert/node-express-app-skeleton/issues"
+  },
+  "homepage": "https://github.com/loveirobert/node-express-app-skeleton#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
